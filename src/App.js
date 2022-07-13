@@ -1,7 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Grandpa from './components/Grandpa/Grandpa';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import NotFound from './components/NotFound/NotFound';
 import OrderReview from './components/OrderReview/OrderReview';
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
         <Route path='/' element={<Home/>}></Route>
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/orderreview' element={<OrderReview/>}></Route>
+        <Route path='/grandpa' element={<Grandpa/>}></Route>
+        <Route path='*' element={<NotFound/>}></Route>
       </Routes>
     </div>
   );
