@@ -7,3 +7,7 @@
 .t-shirt img {
     height: 250px;
 }
+.add-to-cart{
+    cursor: pointer;
+    padding: 5px 10px;
+}

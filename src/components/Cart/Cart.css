@@ -2,3 +2,24 @@
     margin-left: 10px;
     cursor: pointer;
 }
+.btn-remove-all{
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.orange {
+    background-color: orange;
+    padding: 3px;
+    border-radius: 8px;
+    margin: 2px;
+    color: rgb(255, 255, 255);
+}
+.review-order{
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: rgb(212, 104, 16);
+    color: #fff;
+    padding: 5px 10px;
+}
+.review-order:hover{
+    background-color: rgb(163, 81, 14);
+}

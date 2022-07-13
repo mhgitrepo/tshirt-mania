@@ -15,7 +15,7 @@ const Home = () => {
             const newCart = [...cart, selectedItem];
             setCart(newCart);
         } else {
-            alert("You've already added this product. Choose another!");
+            alert("You've already added this item. Choose another!");
         }
     };
 
