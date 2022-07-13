@@ -1,12 +1,12 @@
 import React from 'react';
 import Special from '../Special/Special';
 
-const MySelf = ({ornament, house}) => {
+const MySelf = ({house}) => {
     return (
         <div>
             <h5>Me</h5>
             <p>house: {house}</p>
-            <Special ornament = {ornament}/>
+            <Special/>
         </div>
     );
 };
