@@ -13,7 +13,7 @@ const Special = () => {
     return (
         <div>
             <h5>Special</h5>
-            <p><button onClick={() => setHouse(house + 1)}>Add</button> House: {house}</p>
+            <p>{house > 5 || <button onClick={() => setHouse(house + 1)}>Add</button>} House: {house}</p>
             <p><small>Gift: "{ornament}"</small></p>
         </div>
     );

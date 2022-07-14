@@ -7,7 +7,7 @@ const Aunty = () => {
     return (
         <div>
             <h4>Aunty</h4>
-            <p><button onClick={() => setHouse(house + 1)}>Buy House</button> house: {house}</p>
+            <p>{house > 4 && <button onClick={() => setHouse(house + 1)}>Buy House</button>} house: {house}</p>
             <p><small>ornament: {ornament}</small></p>
         </div>
     );
